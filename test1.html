@@ -5,10 +5,13 @@
     <title>test1</title>
 </head>
 <body>
-<script>
-    let sumin = 123
-    console.log (sumin+1);
-</script>
+    <input type="button" id="hw" value="Hello world" />
+    <script type="text/javascript">
+        var hw = document.getElementById('hw');
+        hw.addEventListener('click', function(){
+            alert('Hello world');
+        })
+    </script>
 
 </body>
 </html>
